@@ -1,6 +1,12 @@
 # PinNote App
 
-A modern note-taking application with secure authentication and clean UI.
+A modern FUll Stack note-taking application with secure authentication and clean UI.
+
+## Screenshots
+
+![App Screenshot](screenshots/app-screenshot.png)
+![Login Page](screenshots/login-page.png)
+![Notes Dashboard](screenshots/notes-dashboard.png)
 
 ## Tech Stack
 
@@ -47,7 +53,3 @@ Visit `http://localhost:3000`
 - Create, edit, delete notes
 - Responsive design with dark/light mode
 - API security with rate limiting
-
-## Contributing
-
-Fork → Branch → Commit → Push → Pull Request
