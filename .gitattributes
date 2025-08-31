@@ -1,22 +1,30 @@
 # Frontend TypeScript files
-Frontend/src/**/*.tsx linguist-language=TypeScript
-Frontend/src/**/*.ts linguist-language=TypeScript
 Frontend/**/*.tsx linguist-language=TypeScript
 Frontend/**/*.ts linguist-language=TypeScript
-Frontend/next.config.ts linguist-language=TypeScript
-Frontend/tsconfig.json linguist-language=TypeScript
+Frontend/src/**/*.tsx linguist-language=TypeScript
+Frontend/src/**/*.ts linguist-language=TypeScript
+Frontend/*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.ts linguist-language=TypeScript
 
 # Backend JavaScript files
 Backend/**/*.js linguist-language=JavaScript
+*.js linguist-language=JavaScript
 
-# Config files
-*.json linguist-language=JSON
-*.md linguist-language=Markdown
-
-# Exclude generated/vendor files from language stats
+# Exclude large generated/vendor files from stats
 Frontend/node_modules/** linguist-vendored
 Backend/node_modules/** linguist-vendored
 Frontend/.next/** linguist-generated
 Frontend/out/** linguist-generated
 Backend/dist/** linguist-generated
+**/node_modules/** linguist-vendored
+**/.next/** linguist-generated
+**/dist/** linguist-generated
 package-lock.json linguist-generated
+Frontend/package-lock.json linguist-generated
+Backend/package-lock.json linguist-generated
+
+# Force detection of specific files
+Frontend/next.config.ts linguist-language=TypeScript
+Frontend/tsconfig.json linguist-language=JSON
+Frontend/tailwind.config.ts linguist-language=TypeScript
