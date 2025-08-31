@@ -1,0 +1,22 @@
+# Frontend TypeScript files
+Frontend/src/**/*.tsx linguist-language=TypeScript
+Frontend/src/**/*.ts linguist-language=TypeScript
+Frontend/**/*.tsx linguist-language=TypeScript
+Frontend/**/*.ts linguist-language=TypeScript
+Frontend/next.config.ts linguist-language=TypeScript
+Frontend/tsconfig.json linguist-language=TypeScript
+
+# Backend JavaScript files
+Backend/**/*.js linguist-language=JavaScript
+
+# Config files
+*.json linguist-language=JSON
+*.md linguist-language=Markdown
+
+# Exclude generated/vendor files from language stats
+Frontend/node_modules/** linguist-vendored
+Backend/node_modules/** linguist-vendored
+Frontend/.next/** linguist-generated
+Frontend/out/** linguist-generated
+Backend/dist/** linguist-generated
+package-lock.json linguist-generated
