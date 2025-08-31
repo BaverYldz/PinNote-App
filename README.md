@@ -5,8 +5,7 @@ A modern FUll Stack note-taking application with secure authentication and clean
 ## Screenshots
 
 ![App Screenshot](screenshots/app-screenshot.png)
-![Login Page](screenshots/login-page.png)
-![Notes Dashboard](screenshots/notes-dashboard.png)
+
 
 ## Tech Stack
 
